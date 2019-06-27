@@ -35,7 +35,7 @@ data.head(20)
 data['possible savings'].describe()
 
 #%%
-data.to_csv(path_or_buf='C:/Users/Patrick/Desktop/Repos/data-science/datasets/almost_final.csv')
+data.to_csv(path_or_buf='C:/Users/Patrick/Desktop/Repos/data-science/datasets/almost_final.csv', index=False)
 
 #%%
 """Remove NaN and other unwanted data and load new dataset file"""
